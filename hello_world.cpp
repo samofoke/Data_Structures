@@ -3,5 +3,7 @@
 int     main()
 {
     cout<< "Hello World!\n";
+    cout<< "Here we go!\n";
+    keep_window_open();
     return 0;
 }
