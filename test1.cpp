@@ -10,6 +10,6 @@ int main()
     cin>> a; 
     cin>> b;
     c = a / b;
-    cout<<c<<endl;
+    cout<<"The quotient of 23 and 5 is  "<<c<<endl;
     return 0;
 }
