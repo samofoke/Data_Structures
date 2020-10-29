@@ -6,6 +6,10 @@ int main()
 {
     int a;
     int b;
-    cout<< a / b<<endl;
+    int c;
+    cin>> a; 
+    cin>> b;
+    c = a / b;
+    cout<<c<<endl;
     return 0;
 }
