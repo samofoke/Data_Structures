@@ -2,7 +2,7 @@ import subprocess
 
 code = r'''
 #include <iostream>
-using namesapace std;
+using namespace std;
 
 int main()
 {
