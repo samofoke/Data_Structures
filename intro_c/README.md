@@ -64,4 +64,38 @@ switch (variable)
 }
 statement X;
 ~~~
+### Iterative Statements
+* Iterative statements are used to repeat the execution of a sequence of statements until the specified
+expression becomes false. C supports three types of iterative statements also known as looping
+statements.
+* while loop
+* do-while loop
+* for loop
+~~~
+statement x;
+while (condition)
+{
+  statement block;
+}
+statement y;
+
+#include <stdio.h>
+int main()
+{
+  int i = 1;
+  
+  do
+  {
+    printf("\n %d", i);
+    i = i + 1;
+  } while(i<=10);
+  return 0;
+
+for (initialization; condition;
+increment/decrement/update)
+{
+  statement block;
+}
+statement y;
+~~~
  
