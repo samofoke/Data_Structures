@@ -39,4 +39,29 @@ if (test expression)
 }
 statement 3;
 ~~~
+
+### Switch Statements
+* switch case statements are often used as an alternative to long if
+statements that compare a variable to several ‘integral’ values (integral values are those values
+that can be expressed as an integer, such as the value of a char ). Switch statements are also used
+to handle the input given by the user.
+~~~
+switch (variable)
+{
+  case value 1:
+    statement block 1;
+    break;
+  case value 2:
+    statement block 2;
+    break;
+  .....................
+  case value N:
+    statement block N;
+    break;
+  default:
+    statement block D;
+    break;
+}
+statement X;
+~~~
  
