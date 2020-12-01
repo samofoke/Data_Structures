@@ -1,20 +1,21 @@
 #include <stdio.h>
 
-void    even_odd(int *arr, int n)
+void    even_odd(int n)
 {
     int i;
 
     i = 0;
-    while (i < n)
+    while (i <= n)
     {
         if (i % 2 == 0)
         {
-            printf("%d is even\n", (arr[i++]));
+            printf("%d is even\n", i);
         }
         else
         {
-            printf("%d is odd\n", (arr[i++]));
+            printf("%d is odd\n", i);
         }
+        i++;
 
     }
 }
@@ -25,11 +26,11 @@ int main()
     //int i;
     //i = 0;
 
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 12, 13, 14, 15, 16};
+    //int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 12, 13, 14, 15, 16};
     int n;
     printf("enter a value: ");
     scanf("%d", &n);
 
-    even_odd(arr, n);
+    even_odd(n);
     return 0;
 }
