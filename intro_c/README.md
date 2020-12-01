@@ -26,3 +26,17 @@ hexadecimal prefixes.
 ### type:
 * is used to define the type and the interpretation of the value
   of the corresponding argument.
+
+### Control statement
+#### decision control statement
+* if statement
+~~~
+if (test expression)
+{
+  statement 1;
+  ..........
+  statement 2;
+}
+statement 3;
+~~~
+ 
