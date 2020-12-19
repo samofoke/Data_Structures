@@ -13,3 +13,25 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
 * A zero (0} returned by main() indicates the program terminated
   successfully.
 * << the output operator
+
+* linkers
+~~~
+--> Source code
+        
+        --> C++ Compiler
+                
+                --> Object Code
+                         
+                         --> Linker <-- Standard Library
+
+                                ^
+                                |--> Executable program
+
+                ||
+                --> Errors found on the compiler:
+                    > compile time error.
+                    > errors found by the linker are called link-time error.
+                    > we have logic errors as well.
+~~~
+## Objects, Types and Values
+* 
