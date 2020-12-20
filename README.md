@@ -33,5 +33,9 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
                     > errors found by the linker are called link-time error.
                     > we have logic errors as well.
 ~~~
-## Objects, Types and Values
-* 
+## Computations
+* A program what it does is compute as it takes input and produces output.
+  we express computations:
+  -> correctly
+  -> simply 
+  -> Efficiently
