@@ -41,3 +41,20 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
   -> simply 
   -> Efficiently
   ~~~
+
+* A constexpr symbolic constant must be given a value that is known at compile time.
+  ~~~
+  #include <iostream>
+
+  constexpr int m = 100;
+
+  void use(int n)
+  {
+    constexpr int a1 = m + 7;
+
+    constexpr int a2 = n + 7; // it will give out an error.
+    //we will need to initialize const to a2 for it to work.
+  }
+  --> in this case it will work.
+  --> The const variable doesn't change
+  ~~~
