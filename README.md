@@ -36,6 +36,8 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
 ## Computations
 * A program what it does is compute as it takes input and produces output.
   we express computations:
+  ~~~
   -> correctly
   -> simply 
   -> Efficiently
+  ~~~
