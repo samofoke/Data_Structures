@@ -58,3 +58,34 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
   --> in this case it will work.
   --> The const variable doesn't change
   ~~~
+### Conversions 
+* A very interesting topic.
+  ~~~
+  #include "header/std_lib_facilities.h"
+
+  int main()
+  {
+    int d; // if we change d into a double then we can get 2.5
+    int x;
+    double s;
+
+    d = 5;
+    x = 2;
+
+    s = d / x; // this will return 2 unless we change d into a double
+
+
+    cout<< "well the answer is: "<< s<< endl;
+    return 0;
+  }
+  --> it goes for this example as well:
+      f = 9.0/5 * c + 32
+  ~~~
+
+
+
+
+
+
+
+
