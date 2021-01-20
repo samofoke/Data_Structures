@@ -81,8 +81,20 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
   --> it goes for this example as well:
       f = 9.0/5 * c + 32
   ~~~
+### Statements
 
+  * a statement is a syntactic unit of an imperative programming language 
+    that expresses some action to be carried out.
 
+    --> expression statements:
+      An expression statement is simply an expression followed by a
+      semicolon.
+      ~~~
+      a = b;
+      ++b;
+      ~~~
+
+    --> declaration statements: 
 
 
 
