@@ -100,7 +100,12 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
       int a = 7;
       cout << a << '\n';
       ~~~
-
+    --> the empty statement
+        The compiler will test x to see if it has the value 5. If this condition is true, the following statement (the empty statement) will be executed, with no effect. Then the program continues to the next line, assigning the value 3 to y (which is what you wanted to have happen if x equals 5). If, on the other hand, x does not have the value 5, the compiler will not execute the empty statement (still no effect) and will continue as before to assign the value 3 to y (which is not what you wanted to have happen unless x equals 5).
+      ~~~
+      if (x == 5);
+      { y = 3; }
+      ~~~
 
 
 
