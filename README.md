@@ -94,7 +94,12 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
       ++b;
       ~~~
 
-    --> declaration statements: 
+    --> declaration statements: the specification of a name with its type 
+      in a program.
+      ~~~
+      int a = 7;
+      cout << a << '\n';
+      ~~~
 
 
 
