@@ -106,7 +106,24 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
       if (x == 5);
       { y = 3; }
       ~~~
+  
+  * We now look at selection in C++ and we look closely at if-statements
+   and switch-statements
+    ~~~
+    An if statement chooses between 2 alternatives
 
+    if condition is true;
+        print A;
+
+    esle if condition is false;
+        print B;
+
+    the traffic example:
+    if (light == green)
+        go();
+    else if (light == red)
+        wait();
+    ~~~
 
 
 
