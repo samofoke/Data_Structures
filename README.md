@@ -110,7 +110,8 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
   * We now look at selection in C++ and we look closely at if-statements
    and switch-statements
     ~~~
-    An if statement chooses between 2 alternatives
+    An if statement chooses between 2 alternatives in this example but they can be
+    multiple case of many alternatives based on the complexity of the problem.
 
     if condition is true;
         print A;
@@ -123,6 +124,29 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
         go();
     else if (light == red)
         wait();
+
+    the next will be looking at switch-statements
+    -> switch is compared to a set of constants.
+
+    char unit = 'a';
+        cout<<"Please enter: ";
+        cin>>len>>unit;
+        
+        switch(unit) {
+            case 'i':
+                    the condition;
+                    break;
+            case 'c':
+                    the second condition;
+                    break;
+            default:
+                    the last condition;
+                    break;
+        }
+        switch technicals-> types of data types apply, you can not use
+                            a variable type already in use in a case statement.
+                            each case end with a break.To select based on a string
+                            you have to use a if statement or a map
     ~~~
   
   * 
