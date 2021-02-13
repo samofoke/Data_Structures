@@ -147,9 +147,25 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
                             a variable type already in use in a case statement.
                             each case end with a break.To select based on a string
                             you have to use a if statement or a map
+                            if your switch are variables they must be for all of
+                            them or if they're int for example. The most common
+                            error for switch statement is forgeting "break".
     ~~~
   
-  * 
+  * We have a look at the while-statement.
+
+    ~~~
+    int main()
+    {
+        int i = 0;
+        while (i <= 100)
+        {
+            cout<<"the int is: "<<i<<" and the sqt is: "<<square(i)<<'\n';
+            i++; or i = i + 1;
+        }
+        return (0);
+    }
+    ~~~
 
 
 
