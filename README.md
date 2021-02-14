@@ -167,6 +167,27 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
     }
     ~~~
 
+  * A sequence of statements delimited by curly braces { and }
+   is called a block or a compound statement.
+    ~~~
+    a simple example can look like this:
+    { }
+    or if (satement){
+            
+    }
+    else {
+        statement;
+    }
+    ~~~
+  * We also look at for-statements as well
+    ~~~
+    an example:
+    for (satement) {
+        body;
+    }
+    ~~~
+
+
 
 
 
