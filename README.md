@@ -179,7 +179,9 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
         statement;
     }
     ~~~
-  * We also look at for-statements as well
+  * We also look at for-statements as well using a for-statement yields more
+   easily understood and more maintainable code whenever a loop can be defined
+   as a for-statement with a simple initializer, condition, and increment operation. 
     ~~~
     an example:
     for (satement) {
