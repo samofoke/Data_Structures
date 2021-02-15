@@ -6,7 +6,7 @@ int main()
 {
     for (char a = 'a'; a <= 'z'; a++)
     {
-        if (a == 'z')
+        if (a == 'z' && a != '\0')
         {
             for (char A = 'A'; A <= 'Z'; A++)
             {
