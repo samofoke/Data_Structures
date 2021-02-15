@@ -6,6 +6,13 @@ int main()
 {
     for (char a = 'a'; a <= 'z'; a++)
     {
+        if (a == 'z')
+        {
+            for (char A = 'A'; A <= 'Z'; A++)
+            {
+                cout<<"for cap: "<<A<<" and the ascii: "<<int(A)<<endl;
+            }
+        }
         cout<<"char is: "<<a<<" and int is: "<<int(a)<<endl;
     }
     return 0;
