@@ -190,18 +190,19 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
     ~~~
    * Functions allow you to break your code in smaller parts and be able to reuse
    functionalities in your code.
-    ~~~
-    int a()
-    {
-        code;
-    }
 
-    int main()
-    {
+     ~~~
+     int a()
+     {
+        code;
+     }
+
+     int main()
+     {
         cout<<a(int)<<endl;
         return (0);
-    }
-    ~~~
+     }
+     ~~~
 
 
 
