@@ -198,12 +198,37 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
      }
 
      int main()
-     {
+     {:
         cout<<a(int)<<endl;
         return (0);
      }
      ~~~
 
+   * Looking at TDD in C++
+     
+     ~~~
+     we always write a test that fails, we fake it and write the actual test.
+     we can archieve this by building a small framke work of our own or just 
+     building functional one.
+
+     bool test1()
+     {
+        the test code;
+     }
+
+     the check function.
+     #define UNIT_TEST(x) {if (x) cout<<}
+
+     void test()
+     {
+        call the test1 code;
+     }
+
+     int main()
+     {
+        call test; 
+     }
+     ~~~
 
 
 
