@@ -12,10 +12,10 @@ int main()
     int i;
 
     i = 0;
-    while (i <= 50)
+    while (i <= 20)
     {
         cout<< "the square root is: "<<square(i)<<endl;
         i++;
     }
     return 0;
-}
+} 
