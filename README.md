@@ -230,6 +230,17 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
      }
      ~~~
 
+  * this focuses on vectors:
+   The elements are stored contiguously, which means that elements can be accessed not 
+   only through iterators, but also using offsets to regular pointers to elements. 
+   This means that a pointer to an element of a vector may be passed to any function that 
+   expects a pointer to an element of an array. 
 
+     ~~~
+     i = i[4] i[2] i[6] i[10] i[8]
+         
+         we start at index 0 and increment until to last index.
+         vector<int>i = {1, 2, 3, 4, 5}
 
+     ~~~ 
 
