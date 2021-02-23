@@ -243,4 +243,16 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
          vector<int>i = {1, 2, 3, 4, 5}
 
      ~~~ 
+  * terminate called after throwing an instance of 'Range_error' getting this error on
+   vector while looping through an array of numbers and what will be the trigger for this.
+
+     ~~~
+     ~~~
+
+
+
+
+
+
+
 
