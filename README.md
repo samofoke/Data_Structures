@@ -247,6 +247,26 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
    vector while looping through an array of numbers and what will be the trigger for this.
 
      ~~~
+     We can also define a vector of a given size without specifying the element
+     values. In that case, we use the (n) notation where n is the number of
+     elements, and the elements are given a default value according to the
+     element type.
+
+     int main()
+     {
+         vector<int>v(6);
+
+         int x;
+
+         x = 0;
+         while (x < x[i])
+         {
+             cout<<"the int is: "<<x[i++]<<'\n';
+         }
+         return (0);
+     }
+
+     this is just example showing how to use std::vector 
      ~~~
 
 
