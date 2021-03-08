@@ -267,10 +267,21 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
      }
 
      this is just example showing how to use std::vector 
+
+     std::vector is a sequence container that encapsulates dynamic size arrays.
      ~~~
 
+  * Traversing a vector we can use a range-for-loop
+      ~~~
+      an example can be:
 
+      vector<int> vec(5);
 
+      for (int i : vec)
+      {
+          return the test;
+      }
+      ~~~ 
 
 
 
