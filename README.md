@@ -284,7 +284,7 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
       ~~~ 
 
    * to exit on of the loops in this examples one has to press crl + D, we can use
-   for charectrers as well as elements within the array.
+   for char data types as well as elements within the array.
 
 
 
