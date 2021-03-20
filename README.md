@@ -286,5 +286,16 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
    * to exit on of the loops in this examples one has to press crl + D, we can use
    for char data types as well as elements within the array.
 
+   * We going to look at suorces of errors in C++
+      ~~~
+      -> The list of expected errors:
+         
+         -> Poor specification
+         -> incomplete programs
+         -> unexpected arguments
+         -> unexpected state
+         -> logical errors
+      ~~~
+
 
 
