@@ -1,18 +1,22 @@
 syntax on
 
 set noerrorbells
+set belloff=all
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
 set nu
-set nowrap
+set wrap
+set linebreak
 set smartcase
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+
+filetype plugin indent on
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=LightGreen
@@ -65,4 +69,10 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 nnoremap <silent> <Leader>gd :YcmCompleter Goto<CR>
 nnoremap <silent> <Leader>gf :YcmCompleter FixIt<CR>
 
+"The auto complete for brackets
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
 
