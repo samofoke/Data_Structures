@@ -296,6 +296,16 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
          -> unexpected state
          -> logical errors
       ~~~
+   * Having a closer look at error handling
+      ~~~
+       at times writing errors inside a function is really not a good idea
+
+       -> reasons been we can't modify the function definition, the function may be already
+          compiled and just an executable file.
+       -> A called function doesn't know hoe to handle an error.
+       -> performace.
+      ~~~
+
 
 
 
