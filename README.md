@@ -304,6 +304,35 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
           compiled and just an executable file.
        -> A called function doesn't know hoe to handle an error.
        -> performace.
+
+       ***The is exception handling in C++***
+       
+       -> The is 2 types of exceptions in C++
+            -> Synchronous
+            -> Asynchronous
+            
+            #include <iostream>
+            using namespace std;
+
+            int main()
+            {
+                int x = -1;
+                // Some code
+                cout << "Before try \n";
+                try {
+                    cout << "Inside try \n";
+                    if (x < 0)
+                    {
+                        throw x;
+                        cout << "After throw (Never executed) \n";
+                    }
+                }
+                catch (int x ) {
+                    cout << "Exception Caught \n";
+                }
+                cout << "After catch (Will be executed) \n";
+                return 0;
+            }
       ~~~
 
 
