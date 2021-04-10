@@ -302,7 +302,7 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
 
        -> reasons been we can't modify the function definition, the function may be already
           compiled and just an executable file.
-       -> A called function doesn't know hoe to handle an error.
+       -> A called function doesn't know how to handle an error.
        -> performace.
 
        ***The is exception handling in C++***
@@ -336,5 +336,6 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
       ~~~
 
 
-
-
+ * The is an error which a vector gets if you not using it proprely which is
+   off-by-one error "The range-error" it happens if the range is not at the 
+   position the vector requires it.
