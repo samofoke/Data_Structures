@@ -357,4 +357,14 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
         }
 
         this an example of how to return an error for runtime error.
+
+        void error(string s1, string s2)
+        {
+            throw runtime_error(s1+s2);
+        }
+        this is if you want to output types of errors for your basics error handling.
       ~~~
+
+
+
+
