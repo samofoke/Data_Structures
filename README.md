@@ -339,3 +339,22 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
  * The is an error which a vector gets if you not using it proprely which is
    off-by-one error "The range-error" it happens if the range is not at the 
    position the vector requires it.
+
+      ~~~
+      int main()
+      try {
+          // our program
+          return 0; // 0 indicates success
+        }
+        catch (exception& e) {
+            cerr << "error: " << e.what() << '\n';
+            keep_window_open();
+            return 1; // 1 indicates failure
+        }catch (...) {
+            cerr << "Oops: unknown exception!\n";
+            keep_window_open();
+            return 2; // 2 indicates failure
+        }
+
+        this an example of how to return an error for runtime error.
+      ~~~
