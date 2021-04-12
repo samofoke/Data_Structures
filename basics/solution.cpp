@@ -4,24 +4,19 @@ using namespace std;
 
 void solution(string str)
 {
-    char up = '^';
-    char down = 'v';
-    char left = '<';
-    char right = '>';
-
     for (int index = 0; str[index] != '\0'; index++)
     {
-        if (str[index] == up || str[index] == left || str[index] == down)
+        if (str[index] == '^' || (str[index] == '<' || 'v'))
         {
             cout<<2<<'\n';
         }
-        else if (str[index] == left || str[index] == down)
+        else if (str[index] == '>' || str[index] == 'v')
         {
             cout<<3<<'\n';
         }
         else
         {
-            if (str[index] == left)
+            if (str[index] == '<')
             {
                 cout<<0<<'\n';
             }
