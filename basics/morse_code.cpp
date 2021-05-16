@@ -47,9 +47,9 @@ string morse_character(char c)
 
 int main()
 {
-    string i;
+    string *i;
 
-    getline(cin, i);
+    scanf("%c", &i);
     string t = "";
     for (int x = 0; x < i.length(); x++)
     {
