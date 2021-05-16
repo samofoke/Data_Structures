@@ -80,7 +80,7 @@ string morse_character(char c)
     case '0':
         return "*****";
     default:
-        cerr << "Found invalid character: " << c << ' '<< std::endl;
+        cerr << "Found invalid character: " << c << ' '<< endl;
         exit(0);
     }
 }
@@ -98,6 +98,7 @@ int main()
 
     cin >> s;
     cout<< "The given characters are: "<< s << endl;
+    cout << "the morse code is: " << endl;
     morse_code(s);
     return 0;
 }
