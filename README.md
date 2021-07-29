@@ -354,7 +354,7 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
             cerr << "Oops: unknown exception!\n";
             keep_window_open();
             return 2; // 2 indicates failure
-        }
+}
 
         this an example of how to return an error for runtime error.
 
@@ -364,7 +364,8 @@ header file whick conatains C++ stream I/O, #include usually has the sutftx .h a
         }
         this is if you want to output types of errors for your basics error handling.
       ~~~
-
-
-
-
+### The setup of my vimrc.
+   
+   * first we create a file undodir=~/.vim/undodir and after we git this file 
+   * ~~~https://github.com/junegunn/vim-plug~~~ so we can call plug#begin and after 
+   * we need to :source % and after PlugInstall and everything will run well.
